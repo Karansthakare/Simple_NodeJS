@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Express Registration</title>
+</head>
+<body style='background-image: url(cricket.jpg)'>
+    <h1 style="color: orange;">Express Registration</h1>
+    <p>Please note that all fields marked with *(asterisk) are required to process your registration</p>
+    <table>
+       
+            <tr style="background-color: grey;">
+                <td colspan="2">Personal Details</td>
+                <td colspan="2">Address</td>
+            </tr>
+            <form method="get">
+                <tr>
+                    <td>
+                        <label for="title">Title:</label>
+                    </td>
+                    <td>
+                        <select name="mr" style="background-color: aqua;">
+                            <option value="Mr">Mr</option>
+                            <option value="Mrs">Mrs</option>
+                            <option value="Miss">Miss</option>
+                        </select>(Mr/Mrs/Miss)
+                    </td>
+                    <td>
+                        <label for="add">Address:</label>
+                    </td>
+                    <td><input type="text" required name="add" id="add" style="background-color: aqua;"/>*</td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fname">First Name:</label>
+                    </td>
+                    <td><input type="text" name="firstname" id="fname" style="background-color: aqua;"/></td>*
+                    <td></td>
+                    <td>
+                        <input type="text"  name="" id="a" style="background-color: aqua;"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lname">Last name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="last name" id="lname" style="background-color: aqua;"/>*
+                    </td>
+                    <td>
+                        <label for="town">Town:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="town" id="town" style="background-color: aqua;"/>*
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="emailid">Email Address:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="emailid" id="emailid" style="background-color: aqua;"/>*
+                    </td>
+                    <td>
+                        <label for="state">Country/State:</label>
+                    </td>
+                    <td>
+                        <select name="state" style="background-color: aqua;">
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Karnataka">Karntaka</option>
+                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            <option value="Kerala">Kerala</option>
+                        </select>*
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="telephone">Telephone:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="telephone" id="telephone" required maxlength="10" style="background-color: aqua;"/>*
+                    </td>
+                    <td>
+                        <label for="cntry">Country:</label>
+                    </td>
+                    <td>
+                        <select name="cntry" style="background-color: aqua;">
+                            <option value="India">India</option>
+                            <option value="Sri Lanka">Sri Lanka</option>
+                            <option value="Australia">Australia</option>
+                            <option value="New Zealand">New Zealand</option>
+                        </select>*
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="celphn">Cellphone:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="celphn" id="celphn" style="background-color: aqua;"/>
+                    </td>
+                    <td>
+                        <label for="postcode">PostCode:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="postcode" id="postcode" required maxlength="6" style="background-color: aqua;"/>*
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="comment">Comment</label>
+                    </td>
+                    <td colspan="3" style="background-color:aqua;">
+                        <textarea id="comment" cols="3"></textarea >
+                    </td>
+                </tr>
+
+            </form>
+            
+       
+       
+    </table>
+</body>
+</html>
